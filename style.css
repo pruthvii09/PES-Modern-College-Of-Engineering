@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div.head {
+    display: flex;
+}
+
+div.heading h3 {
+    font-size: 24px;
+}
+
+div.heading h1 {
+    color: rgba(191, 49, 71, 255);
+    font-size: 28px;
+}
+
+div.head img {
+    width: 116px;
+    height: 122px;
+    margin-top: 5px;
+}
+
+.socials {
+    display: flex;
+
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.socials .icon {
+    background: #0AA1DD;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+
+}
+
+.you {
+    margin-left: 10px;
+}
+
+.socials .you {
+    background: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .you i {
+    color: white;
+}
+
+.socials .icon i {
+    color: #fdfdfd;
+}
+
+.linked {
+    margin-left: 10px;
+}
+
+.socials .linked {
+    background: #2155CD;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .linked i {
+    color: white;
+}
+
+.socials .linked i {
+    color: #fdfdfd;
+}
+
+header button {
+    height: 20px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+div img.handles {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+div img.unique {
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+div img.abc {
+    height: 40px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: rgba(191, 49, 71, 255);
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+
+
+div.enquiry {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+
+
+
+hr.line {
+    margin-top: 30px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(191, 49, 71, 255);
+    padding: 15px 0px;
+}
+
+div.dropdown {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 49, 71, 255);
+    float: left;
+    /* width: 1366px; */
+    /* height: 20px; */
+
+}
+
+div.dropdown-menu {
+    display: none;
+    background: rgba(191, 49, 71, 255);
+    position: absolute;
+    top: 20px;
+    /* min-width: 50px; */
+    padding: 5px;
+    width: 200px;
+    border: 10px;
+
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #fdfdfd;
+    text-decoration: none;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.dropdown-menu a:hover {
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.single-dropdown {
+    background: gold;
+    position: relative;
+}
+
+.single-dropdown:hover .dropdown-menu {
+    display: block;
+}
