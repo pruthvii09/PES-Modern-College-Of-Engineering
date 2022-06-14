@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
+
     <header>
         <div class="top">
             <div class="head">
@@ -35,13 +38,16 @@
 
                     <div class="socials">
                         <div class="icon">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="https://www.facebook.com/pesmoderncoepune" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
                         </div>
                         <div class="icon">
-                            <i class="fa-brands fa-twitter"></i>
+                            <a href="https://twitter.com/PESMCOE1" target="_blank"> <i
+                                    class="fa-brands fa-twitter"></i></a>
                         </div>
                         <div class="you">
-                            <i class="fa-brands fa-youtube"></i>
+                            <a href="https://www.youtube.com/channel/UCBb6z3vfY4jEMZw6A12OeGw" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
                         </div>
                         <div class="linked">
                             <i class="fa-brands fa-linkedin-in"></i>
@@ -223,57 +229,335 @@
         </div>
 
     </div>
-
-    <div class="info">
-        <div class="slide">
-            <div class="slide-show">
-                <div class="numbertext">1/3</div>
-                <img src="Images/s1.jpg" alt="">
-                <div class="text"></div>
-            </div>
-            <div class="slide-show">
-                <div class="numbertext">2/3</div>
-                <img src="Images/s2.jpg" alt="">
-                <div class="text"></div>
-            </div>
-            <div class="slide-show">
-                <div class="numbertext">3/3</div>
-                <img src="Images/s3.jpg" alt="">
-                <div class="text"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        <div class="messages">
-            <div class="chairperson">
-                <a href="">CHAIRPERSON'S MESSAGE</a>
-                <div class="whole">
-                    <div class="msg">
-                        <p>Progressive Education Society foundation was established by late<a class="readmore" href="">
-                                Read More....</a>
-                        </p>
-                    </div>
-                    <div class="imgchair">
-                        <img src="Images/ProfChairman.jpg" alt="">
-                    </div>
+    <div class="content">
+        <div class="slides">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="Images/s1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Images/s2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Images/s3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Images/s5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Images/s6.jpg" alt=""></div>
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="principal">
+        </div>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+            });
+        </script>
+        <div class="abc">
+            <h4>CHAIRMAN'S MESSAGE</h4>
+            <div class="cont">
+                <div class="prof">
+                    <img src="Images/ProfChairman.jpg" alt="">
+                </div>
+                <p>Progressive Education Society was established by late Shankarraoji Kanitkar and his 5 teacher
+                    colleagues
+                    in 1934 on auspicious day... <a href="">Read More.....</a> </p>
+            </div>
+            <div class="def">
+                <h4>PRINCIPAL'S MESSAGE</h4>
+                <div class="cont">
+                    <div class="prof">
+                        <img src="Images/ProfPrincipal.jpg" alt="">
+                    </div>
+                    <p>You are getting your education in an institution where there is healthy atmosphere for your
+                        overall development and many good things that shall help you in your future and this is only
+                        because of co-operative culture of....<a href=""> Read More.....</a></p>
+                </div>
 
             </div>
 
         </div>
 
     </div>
+
+    <div class="announce">
+        <div class="box1">
+            <div class="head1"><i class="fa-regular fa-newspaper" id="regular"></i> NEWS ANNOUNCEMENT</div>
+            <hr class="main">
+            <hr>
+            <div class="n1"><i class="fa-regular fa-newspaper" id="regular"></i> The PES MCOE's Computer Engineering
+                department is
+                organizing “ONLINE PARENT-TEACHER MEET 2022”, on Saturday,</div>
+            <hr>
+            <div class="n2"><i class="fa-regular fa-newspaper" id="regular"></i> The PES MCOE's Computer Engineering
+                department has
+                organized a Guest Session on “Right
+                Nutrition for Healthy Generations ”, on Friday, 8th April 2022 in Collaboration with Rotaract Club of
+                MCOE (Computers) Metro.</div>
+            <hr>
+            <div class="n3"><i class="fa-regular fa-newspaper" id="regular"></i> Expert talk on "Cloud Computing" for
+                Second year
+                ,Third year & Final year students is
+                organized by the Department of Electronics and Telecommunication on Wednesday, 30th March, 2022, 5:00 PM
+                to 6:00 PM. on Microsoft Teams.</div>
+            <hr>
+            <div class="n5"><i class="fa-regular fa-newspaper" id="regular"></i>
+                Heartiest Congratulations to Prathamesh Joshi, from Department of Electronics and Telecommunications,
+                PES's MCOE for securing University Second rank in .....</div>
+            <hr class="bottom">
+            <div class="all">
+                <a href="">Read All News...</a>
+            </div>
+
+        </div>
+        <div class="box2">
+            <div class="head1"><i class="fa-duotone fa-microphone"></i> NOTICE BOARD</div>
+            <hr class="main">
+            <hr>
+            <div class="n1"><i class="fa-solid fa-square-exclamation" id="regular"></i> Personal interviews for Ph.D.
+                Admissions
+                2021 (Round -II) . Personal interviews for Ph.D.
+                Admissions 2021 (Round -II) are scheduled on 7th June 2022. Electrical and
+                ENTC Engineering interviews will start at 10.30 am and Organization Management and Marketing Management
+                interviews will start at 3.30 pm.</div>
+            <hr>
+            <div class="n2">
+                Personal Interviews for Ph.D. Admissions 2021.
+
+                Personal interviews for Ph.D. Admissions 2021 are scheduled on 8th February 2022.
+                ENTC and Power Systems interviews will start at 11.30 am and Organization Management interviews will
+                start at 3.00 pm.</div>
+            <hr>
+            <div class="n3">
+                "Webinar series on Economic load dispatch & Power System Operations considering grid connected renewable
+                energy sources" ' for B.E. students is organised by the department of Electrical Engineering on 24/9/21
+                and 1/10/21</div>
+            <hr class="bottom">
+            <!-- <div class="n4">
+                Online Test Series for MHT-CET 2021-221 PES's Modern College of Engg, Shivajinagar, Pune -5 is
+                organising Series of Mock MHT-CET test Link for Registration is given below
+                https://forms.gle/yoFvCCNniHBkeJii9
+                * Register yourself and Join whatsapp group for dates and links of free mock exams
+                ** Answer key with explanation will be provided.</div>
+            <div class="n5">Branch Change Date Extend</div> -->
+        </div>
+        <div class="box3">
+            <div class="head1"><i class="fa-regular fa-calendar"></i> UPCOMING EVENTS</div>
+            <hr class="main">
+            <hr>
+            <div class="a1">
+                <div class="date">
+                    <div class="da">
+                        <p>10<br>May</p>
+                    </div>
+                </div>
+                <div class="info">
+                    ‘Code Fiesta- 2022’ on 7th May 2022.
+                    Department of Computer Engineering organizes annual intercollegiate technical event ‘Code Fiesta-
+                    2022’ on 7th May 2022.</div>
+            </div>
+            <hr>
+            <div class="a2">
+                <div class="date">
+                    <div class="da">
+                        <p>9-10<br>May</p>
+                    </div>
+                </div>
+                <div class="info1">Electrical department has organized an industrial visit to 'X-Trans Enterprises
+                    Electrical department has organized an industrial visit to 'X-Trans Enterprises, Pune' for second
+                    year students on 9th and 10th May 2022.</div>
+            </div>
+            <hr>
+            <div class="a3">
+                <div class="date">
+                    <div class="da">
+                        <p>22<br>April</p>
+                    </div>
+                </div>
+                <div class="info2">On Occasion on International Earth Day , A poster exhibition is organised by
+                    First
+                    year Engineering Department on 22/4/2022 at Engineering Mechanics Lab </div>
+
+            </div>
+            <hr class="bottom">
+            <!-- <div class="a4">
+                <div class="date">
+                    <div class="da">
+                        <p>21<br>April</p>
+                    </div>
+                    <div class="info3">Electrical Engineering Department has organised IET sponsored workshop on “Latest
+                        Microcontrollers and its applications in Electrical Engineering
+                        Date: 26.04.2022 to 28.04.2022</div>
+                </div>
+            </div>
+            <div class="a5">
+                <div class="date">
+                    <div class="da">
+                        <p>21<br>April</p>
+                    </div>
+                    <div class="info4">Electrical Engineering Department has organised Industrial Visit to 'Bhimashankar
+                        Sahakari Sakhar Karkhana Ltd Pargaon Tarfe Avasari,Dattatray Nagar Taluka Ambegaon
+                        Date: 22/04/2022
+
+                        Class:B.E Students</div>
+                </div>
+            </div>
+            <div class="a6">
+                <div class="date">
+                    <div class="da">
+                        <p>09<br>April</p>
+                    </div>
+                    <div class="info5">How to Speak English Confidently and Fluently without Grammatical Error along
+                        with
+                        Soft Skills
+                        Date: 11th April, 2022 to 16th April, 2022
+
+                        Classes: FE to BE all branches</div>
+                </div> -->
+        </div>
+    </div>
+    <div class="branches">
+        <div class="head">
+            <div class="b1"><a href=""> Department</a>
+                <div class="sym"><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div class="b1"><a href="">Student Chapter </a>
+                <div class="sym"><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div class="b1"><a href="">Student Club </a>
+                <div class="sym"><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div class="b1"><a href="">Activities </a>
+                <div class="sym"><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div class="b1"> <a href=""> Publications </a>
+                <div class="sym"><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+        </div>
+        <div class="names">
+            <div class="part1">
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/Comp Engg.png" alt=""></div>
+                            <div class="branch-name"><a href="">Computer Engineering</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/Elect Engg.png" alt=""></div>
+                            <div class="branch-name"><a href="">Electrical Engineering</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/Tele Engg.png" alt=""></div>
+                            <div class="branch-name"><a href="">Electronics Engineering</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/IT.png" alt=""></div>
+                            <div class="branch-name"><a href="">Information Technology</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/Mech Engg.png" alt=""></div>
+                            <div class="branch-name"><a href="">Mechanacial Engineering</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/MCA.png" alt=""></div>
+                            <div class="branch-name"><a href="">Masters of Computer Application</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/MBA.png" alt=""></div>
+                            <div class="branch-name"><a href="">Masters of Buisness Admnistration</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/AIDS.png" alt=""></div>
+                            <div class="branch-name"><a href="">Artificial Intelligence & Data Science</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/AIML.png" alt=""></div>
+                            <div class="branch-name"><a href="">Artificial Intelligence & Machine Learning</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="catogary">
+                        <div class="branch-holder">
+                            <div class="image-holder"><img src="Images/ECE.png" alt=""></div>
+                            <div class="branch-name"><a href="">Electronics & Computer Engineering</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="block1">
+                <h3>Institutional Committees</h2>
+            </div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+        </div>
+    </footer>
+
+
+
 
 
 </body>

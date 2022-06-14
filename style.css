@@ -165,6 +165,7 @@ div.dropdown {
     float: left;
     /* width: 1366px; */
     /* height: 20px; */
+    z-index: 1;
 
 }
 
@@ -177,6 +178,7 @@ div.dropdown-menu {
     padding: 5px;
     width: 200px;
     border: 10px;
+    z-index: 2;
 
 }
 
@@ -185,6 +187,7 @@ div.dropdown-menu {
     color: #fdfdfd;
     text-decoration: none;
     border-bottom: 1px solid #fdfdfd;
+    z-index: 1;
 }
 
 .dropdown-menu a:hover {
@@ -204,153 +207,358 @@ div.dropdown-menu {
     display: block;
 }
 
-.body {
+.slides {
+    height: 368px;
+    width: 814px;
+}
+
+.swiper {
+    /* width: 80%; */
+    height: fit-content;
     margin-top: 20px;
+}
+
+.content {
+    margin-left: 25px;
+    /* display: flex; */
+    /* width: 839px; */
     display: flex;
 }
 
-.chairperson {
-    height: 220px;
-    width: 320px;
-    border: 1px solid rgb(128, 128, 128, 0.5);
-    box-shadow: 5px 10px #888888;
-    /* border-opacity: 0.7; */
-    margin-top: 50px;
-    margin-left: 1010px;
-    align-items: right;
-    align-content: right;
+.swiper-slide img {
+    width: 100%;
 }
 
-.chairperson a {
+.swiper .swiper-button-prev,
+.swiper-button-next {
+    color: white;
+}
+
+.swiper .swiper-button-next {
+    color: white;
+}
+
+.swiper-pagination {
+    color: white;
+}
+
+div.abc {
+    height: 150px;
+    width: 485px;
+    /* background-color: red; */
+    margin-left: 15px;
+    margin-top: 20px;
+    border: 2px solid rgb(128, 128, 128, 0.5);
+    padding: 2px;
+    box-shadow: 8px 8px;
+
+}
+
+.abc h4 {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(191, 49, 71, 255);
+}
+
+.abc img {
+    border-radius: 50%;
+}
+
+.prof {
+    height: 109px;
+    width: 109px;
+}
+
+div.cont {
+    display: flex;
+}
+
+div.def {
+    margin-top: 30px;
+    height: 190px;
+    width: 485px;
+    /* background-color: purple; */
+    border: 2px solid rgb(128, 128, 128, 0.5);
+    padding: 2px;
+    box-shadow: 8px 8px;
+}
+
+.abc p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.def p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.abc a {
     text-decoration: none;
     color: rgba(191, 49, 71, 255);
-    /* text-align: center; */
 }
 
-.whole {
+.abc a:hover {
+    font-weight: bolder;
+    color: #000000;
+}
+
+div.announce {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.box1 {
+    height: 650px;
+    width: 400px;
+    background-color: rgba(243, 243, 243, 255);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+}
+
+div.box2 {
+    height: 650px;
+    width: 400px;
+    background-color: rgba(243, 243, 243, 255);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+}
+
+div.box3 {
+    height: 650px;
+    width: 400px;
+    background-color: rgba(243, 243, 243, 255);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+}
+
+.box1 .head1,
+.box2 .head1,
+.box3 .head1 {
+    font-size: 25px;
+    text-align: left;
+    color: rgba(191, 49, 71, 255);
+    font-weight: bolder;
+}
+
+div.n1,
+div.n2,
+div.n3,
+div.n4,
+div.n5 {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+div #regular {
+    color: rgba(191, 49, 71, 255);
+}
+
+div.a1 {
     display: flex;
 }
 
-div.imgchair img {
-    border-radius: 50%;
-    margin-left: 25px;
-    border: 3px solid gray;
-    margin-right: 22px;
+div.date {
+    height: 150px;
+    width: 30%;
+    /* background-color: purple; */
+    text-align: center;
+    justify-content: space-evenly;
 }
 
-/* div.msg p {} */
-.imgchair {
-    height: 100px;
+div.info {
+    height: 150px;
+    width: 70%;
+    text-align: justify;
+
+    /* background-color: orange; */
+}
+
+div.a2 {
+    display: flex;
+}
+
+div.a3 {
+    display: flex;
 }
 
 
-
-.messaxges {
-    border: 2px solid gray;
+div.info1 {
+    height: 200px;
+    width: 70%;
+    /* background-color: orange; */
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
 }
 
-div a {
-    margin-left: 22px;
-}
-
-div p {
-    margin-left: 22px;
-}
-
-.slide-show-container {
-    max-width: 1000px;
+div.info2 {
+    height: 150px;
+    width: 70%;
+    /* background-color: orange; */
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
 
 }
 
-.slide {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
+div.da {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(191, 49, 71, 255);
+    margin-left: 17px;
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    font-weight: bolder;
 }
 
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+div.da p.date1 {
+    margin-top: 22px;
+    font-size: 20px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
+div.branches {
+    height: 520px;
     width: 100%;
+    background-color: lightgray;
+}
+
+div.branches div.head {
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+div.sym {
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+}
+
+div.b1 a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+div.b1 {
+    margin-top: 15px;
+
+}
+
+div.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+div.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 25px; */
+}
+
+div.catogary {
+    height: 100px;
+    width: 214px;
+    /* background-color: white; */
+    align-items: center;
+    border-radius: 100px;
+    /* border-radius: 50px; */
+}
+
+div.catogary div.image-holder {
+    height: 48px;
+    width: 48px;
+    background-color: rgba(191, 49, 71, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.f1 {
+    /* background-color: aqua; */
+    height: 125px;
+    width: 214px;
+    border-left-width: thick;
+    border-left-color: #000000;
+    /* border-radius: 55px; */
+
+}
+
+div.catogary div.branch-holder {
+    height: 100px;
+    width: 188px;
+    /* background-color: White; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.catogary div.branch-holder div.branch-name {
+    text-align: justify;
+    width: 140px;
+    padding: 10px;
+}
+
+div.branch-name a {
+    text-decoration: none;
+    color: black;
+}
+
+div.branch-name a:hover {
+    font-weight: bolder;
+    color: rgba(191, 49, 71, 255);
+}
+
+div.foot {
+    height: 370px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.foot div.block1 {
+    height: 266px;
+    width: 312px;
+    background-color: lightblue;
+}
+
+div.foot div.block1 h3 {
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+div.foot div.block2 {
+    height: 266px;
+    width: 312px;
+    background-color: lightgreen;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+div.foot div.block3 {
+    height: 266px;
+    width: 312px;
+    background-color: lightsalmon;
 }
 
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
+div.foot div.block4 {
+    height: 266px;
+    width: 312px;
+    background-color: lightgoldenrodyellow;
 }
