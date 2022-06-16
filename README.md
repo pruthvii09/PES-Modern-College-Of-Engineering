@@ -13,8 +13,8 @@ Has many features on nav tab which are specified as follows :
 These also have sub nav tabs to specific details provided in the nav tab.
 Home page includes some photos of college and messeges form chairman and Principle.
 Shows online important announcements to students which include
-                                1) News Announcements
-                                2) Notice Board
+                            1) News Announcements
+                            2) Notice Board
                                 3) Upcoming Events
                                
 Includes All types of brances avaliable in the college which are as follows :
