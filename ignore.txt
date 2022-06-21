@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div.head {
+    display: flex;
+}
+
+div.heading h3 {
+    font-size: 24px;
+}
+
+div.heading h1 {
+    color: rgba(191, 49, 71, 255);
+    font-size: 28px;
+}
+
+div.head img {
+    width: 116px;
+    height: 122px;
+    margin-top: 5px;
+}
+
+.socials {
+    display: flex;
+
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.socials .icon {
+    background: #0AA1DD;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+
+}
+
+.you {
+    margin-left: 10px;
+}
+
+.socials .you {
+    background: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .you i {
+    color: white;
+}
+
+.socials .icon i {
+    color: #fdfdfd;
+}
+
+.linked {
+    margin-left: 10px;
+}
+
+.socials .linked {
+    background: #2155CD;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials .linked i {
+    color: white;
+}
+
+.socials .linked i {
+    color: #fdfdfd;
+}
+
+header button {
+    height: 20px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+div img.handles {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+div img.unique {
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+div img.abc {
+    height: 40px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: rgba(191, 49, 71, 255);
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+
+
+div.enquiry {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+
+
+
+hr.line {
+    margin-top: 30px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(191, 49, 71, 255);
+    padding: 15px 0px;
+}
+
+div.dropdown {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 49, 71, 255);
+    float: left;
+    /* width: 1366px; */
+    /* height: 20px; */
+    z-index: 1;
+
+}
+
+div.dropdown-menu {
+    display: none;
+    background: rgba(191, 49, 71, 255);
+    position: absolute;
+    top: 20px;
+    /* min-width: 50px; */
+    padding: 5px;
+    width: 200px;
+    border: 10px;
+    z-index: 2;
+
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #fdfdfd;
+    text-decoration: none;
+    border-bottom: 1px solid #fdfdfd;
+    z-index: 1;
+}
+
+.dropdown-menu a:hover {
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.single-dropdown {
+    background: gold;
+    position: relative;
+}
+
+.single-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+div.location {
+    background-color: rgb(241, 239, 239);
+    height: 35px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+div.sym,
+div.loc1,
+div.loc2 {
+    margin-left: 7px;
+}
+
+div.mainbuilding {
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+div.mainbuilding img {
+    border-radius: 15px;
+}
+
+div.maindiv {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 50px;
+}
+
+div.info {
+    text-align: justify;
+    margin-left: 50px;
+}
+
+div.history {
+    margin-top: 40px;
+    font-size: 28px;
+    margin-left: 50px;
+    color: rgba(191, 49, 71, 255);
+}
+
+div.founder_image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightcoral; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+div.foot {
+    height: 370px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+div.foot div.block1 {
+    height: 266px;
+    width: 312px;
+    /* background-color: lightblue; */
+}
+
+div.foot div.block2 {
+    height: 266px;
+    width: 312px;
+    /* background-color: lightgreen; */
+}
+
+div.foot div.block3 {
+    height: 266px;
+    width: 312px;
+    /* background-color: lightsalmon; */
+}
+
+div.foot div.block4 {
+    height: 266px;
+    width: 312px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+div.block1 h3 {
+    color: white;
+    text-align: start;
+}
+
+div.link1 {
+    /* height: 20%;
+    width: 100%; */
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+div.link1 #arrow {
+    color: white;
+}
+
+div.link1 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.link2 {
+    /* height: 20%;
+    width: 100%; */
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+div.link2 #arrow {
+    color: white;
+}
+
+div.link2 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.link3 {
+    /* height: 20%;
+    width: 100%; */
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+div.link3 #arrow {
+    color: white;
+}
+
+div.link3 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.block3 h3 {
+    color: white;
+}
+
+
+div.block3 #arrow {
+    color: white;
+}
+
+div.link4 {
+    /* height: 20%;
+    width: 100%; */
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+div.link4 #arrow {
+    color: white;
+}
+
+div.link4 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.block1 div.socials {
+    margin-top: 15px;
+}
+
+div.links1 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.links2 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.links1,
+div.links2,
+div.links3,
+div.links4,
+div.links5 {
+    padding: 5px;
+}
+
+div.links3 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.links4 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.links5 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15.97px;
+}
+
+div.links6 a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+div.block2 h3 {
+    color: white;
+}
+
+div.block2 div.links1 #arrow {
+    color: white;
+}
+
+div.links2 #arrow {
+    color: white;
+}
+
+div.links3 #arrow {
+    color: white;
+}
+
+div.links4 #arrow {
+    color: white;
+}
+
+div.links5 #arrow {
+    color: white;
+}
+
+div.links6 #arrow {
+    color: white;
+}
+
+div.ariia img {
+    height: 44px;
+    width: 186px;
+
+}
+
+div.block4 div.name {
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+div.mainadd {
+    display: flex;
+    color: white;
+}
+
+div.address {
+    padding: 5px;
+}
+
+div.add {
+    padding: 5px;
+}
+
+div.mainmail {
+    display: flex;
+    color: white;
+}
+
+div.main {
+    padding: 5px;
+}
+
+div.mail {
+    padding: 5px;
+}
+
+div.maintele {
+    display: flex;
+    color: white;
+}
+
+div.tele {
+    padding: 5px;
+}
+
+div.copyright {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+div.copy {
+    width: 50%;
+    margin-left: 200px;
+}
+
+div.by {
+    width: 50%;
+    margin-left: 200px;
+}

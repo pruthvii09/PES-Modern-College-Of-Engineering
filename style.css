@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+div.single-dropdown div.dropdown button a {
+    color: white;
+    text-decoration: none;
+}
 
 div.head {
     display: flex;
