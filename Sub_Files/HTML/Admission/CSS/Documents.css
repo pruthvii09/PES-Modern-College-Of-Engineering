@@ -261,83 +261,46 @@ div.founder_image {
 
 }
 
-div.pdfs {
+table,
+th,
+td {
+    /* background-color: red; */
+    border: 1px solid black;
+    margin-left: 50px;
+
+}
+
+th.one {
+    width: 70px;
+}
+
+table {
+    width: 80%;
+    margin-top: 50px;
+}
+
+th.one,
+th.two {
+    background-color: lightblue;
+}
+
+th.doc {
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+div.docs {
     margin-left: 50px;
 }
 
-div.pdf_head h2 {
-    color: rgba(191, 49, 71, 255);
-    font-size: 30px;
+div.he h4.lower {
+    margin-top: 50px;
 }
 
-div.pdf {
-    display: flex;
-    background-color: lightgrey;
-    border-radius: 10px;
-    width: 80%;
-    padding: 5px;
-    /* height: 4px; */
-    /* align-items: center; */
-    margin-top: 20px;
+div.he {
+    margin-top: 25px;
 }
-
-div.dropdown button a {
-    text-decoration: none;
-    color: white;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
-div.pdf div.sym i {
-    color: rgba(191, 49, 71, 255);
-    font-size: 25px;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-    /* font-weight: 700; */
-}
-
-.pdf_name a {
-    display: inline-block;
-    position: relative;
-    color: rgba(191, 49, 71, 255);
-}
-
-.pdf_name a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:
-        rgba(191, 49, 71, 255);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.pdf_name a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
-
-
-
 
 
 
@@ -619,7 +582,12 @@ div.tele {
     padding: 5px;
 }
 
-div.copyright {
+.dropdown button a {
+    color: white;
+    text-decoration: none;
+}
+
+i div.copyright {
     height: 50px;
     width: 100%;
     background-color: black;
@@ -627,6 +595,15 @@ div.copyright {
     align-items: center;
     justify-content: end;
     text-align: center;
+}
+
+div.he {
+    margin-left: 50px;
+}
+
+.he h3 {
+    color: rgba(191, 49, 71, 255);
+    font-size: 27px;
 }
 
 div.copy {

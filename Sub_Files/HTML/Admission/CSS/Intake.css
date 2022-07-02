@@ -207,6 +207,61 @@ div.dropdown-menu {
     display: block;
 }
 
+div.dropdown button a {
+    color: white;
+    text-decoration: none;
+}
+
+div.branch {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+div.he {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+table {
+    margin-top: 20px;
+}
+
+div.he h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+div.he h3 {
+    font-size: 27px;
+    color: rgba(191, 49, 71, 255);
+}
+
+div.syms {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.name {
+    margin-left: 15px;
+}
+
+th.content {
+    height: 70px;
+}
+
+th.up_main {
+    height: 50px;
+    background-color: lightblue;
+}
+
 div.location {
     background-color: rgb(241, 239, 239);
     height: 35px;
@@ -260,81 +315,6 @@ div.founder_image {
     /* background-color: lightcoral; */
 
 }
-
-div.pdfs {
-    margin-left: 50px;
-}
-
-div.pdf_head h2 {
-    color: rgba(191, 49, 71, 255);
-    font-size: 30px;
-}
-
-div.pdf {
-    display: flex;
-    background-color: lightgrey;
-    border-radius: 10px;
-    width: 80%;
-    padding: 5px;
-    /* height: 4px; */
-    /* align-items: center; */
-    margin-top: 20px;
-}
-
-div.dropdown button a {
-    text-decoration: none;
-    color: white;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
-div.pdf div.sym i {
-    color: rgba(191, 49, 71, 255);
-    font-size: 25px;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-    /* font-weight: 700; */
-}
-
-.pdf_name a {
-    display: inline-block;
-    position: relative;
-    color: rgba(191, 49, 71, 255);
-}
-
-.pdf_name a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:
-        rgba(191, 49, 71, 255);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.pdf_name a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
 
 
 
@@ -627,6 +607,19 @@ div.copyright {
     align-items: center;
     justify-content: end;
     text-align: center;
+}
+
+
+
+table {
+    margin-left: 50px;
+}
+
+table,
+th,
+td {
+    /* background-color: red; */
+    border: 1px solid black;
 }
 
 div.copy {

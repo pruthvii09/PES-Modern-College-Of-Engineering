@@ -261,81 +261,6 @@ div.founder_image {
 
 }
 
-div.pdfs {
-    margin-left: 50px;
-}
-
-div.pdf_head h2 {
-    color: rgba(191, 49, 71, 255);
-    font-size: 30px;
-}
-
-div.pdf {
-    display: flex;
-    background-color: lightgrey;
-    border-radius: 10px;
-    width: 80%;
-    padding: 5px;
-    /* height: 4px; */
-    /* align-items: center; */
-    margin-top: 20px;
-}
-
-div.dropdown button a {
-    text-decoration: none;
-    color: white;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
-div.pdf div.sym i {
-    color: rgba(191, 49, 71, 255);
-    font-size: 25px;
-}
-
-div.pdf_name a {
-    text-decoration: none;
-    color: black;
-    /* font-weight: 700; */
-}
-
-.pdf_name a {
-    display: inline-block;
-    position: relative;
-    color: rgba(191, 49, 71, 255);
-}
-
-.pdf_name a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:
-        rgba(191, 49, 71, 255);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.pdf_name a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-div.pdf_name {
-    margin-left: 20px;
-}
-
-
 
 
 
@@ -627,6 +552,96 @@ div.copyright {
     align-items: center;
     justify-content: end;
     text-align: center;
+}
+
+table {
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+th.upper {
+    color: red;
+    height: 70px;
+    font-size: 20px;
+}
+
+tr {
+    width: 100%;
+}
+
+th.main_head {
+    height: 80px;
+}
+
+th.khali {
+    height: 27px;
+}
+
+th {
+    height: 40px;
+}
+
+th.main_head2 {
+    height: 80px;
+    width: 7%;
+    background-color: lightblue;
+
+}
+
+table {
+    margin-top: 40px;
+}
+
+.main_head1,
+.main_head2,
+.main_head3,
+.main_head4,
+.main_head5,
+.main_head6,
+.main_head7,
+.main_head8,
+.main_head9 {
+    background-color: lightblue;
+}
+
+th.main_head7 {
+    width: 10%;
+    height: 80px;
+
+}
+
+th.main_head1 {
+    width: 30%;
+    height: 80px;
+    background-color: lightblue;
+}
+
+th.main_head8 {
+    background-color: lightblue;
+    height: 80px;
+    width: 10%;
+}
+
+table,
+th,
+td {
+    /* background-color: red; */
+    border: 1px solid black;
+}
+
+div.he {
+    margin-left: 50px;
+}
+
+div.he h3 {
+    color: rgba(191, 49, 71, 255);
+    font-size: 27px;
+}
+
+div.dropdown button a {
+    text-decoration: none;
+    color: white;
 }
 
 div.copy {
